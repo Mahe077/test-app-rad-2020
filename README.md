@@ -1,15 +1,15 @@
-##Mean Stack Tutorial - Express Application
+## Mean Stack Tutorial - Express Application
 
-###Clone Project
+### Clone Project
 
     git clone https://github.com/mottretor/test-app-rad-2020.git
     cd test-app-rad-2020
     
-###Download Dependencies
+### Download Dependencies
 
     npm install
     
-###Run Project
+### Run Project
 
     npm start
 
