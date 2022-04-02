@@ -11,6 +11,7 @@ const mongoose = require('mongoose')
 const db_config = require('./mongo')
 
 const student_route = require('./student-controller');
+const dept_router = require('./department-controller');
 
 //Connect to MongoDB
 mongoose.connect(db_config.db, {
