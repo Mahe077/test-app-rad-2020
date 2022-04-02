@@ -35,6 +35,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/student', student_route);
+app.use('/dept', dept_router);
 
 //Set Port to Listen
 app.listen(port, () => {
