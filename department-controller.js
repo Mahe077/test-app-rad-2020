@@ -4,7 +4,7 @@ const dept_router = express.Router();
 
 let Dept = require('./department-model');
 
-
+// add data to the collection
 dept_router.route('/add').post((req, res, next) => {
     console.log(req.body);
     Dept.create(req.body, (error, data) => {
